@@ -1,6 +1,6 @@
 import Sequelize from "sequelize";
 import db from "../config/dbConfig.js";
-import Blog from "./blog.js";
+import Blog from "./Blog.js";
 
 const Favorite = db.define(
   "favorites",
