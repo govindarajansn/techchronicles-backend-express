@@ -4,15 +4,15 @@ import bodyparser from "body-parser";
 const { json, urlencoded } = bodyparser;
 import cookieParser from "cookie-parser";
 import cors from "cors";
-import blogRouter from "./routes/blogRouter.js";
-import healthRouter from "./routes/healthRouter.js";
-import postRouter from "./routes/postRouter.js";
-import favoriteRouter from "./routes/favoriteRouter.js";
-import profileRouter from "./routes/profileRouter.js";
-import likeRouter from "./routes/likeRouter.js";
-import ratingRouter from "./routes/ratingRouter.js";
-import userAuthRouter from "./routes/userAuthRouter.js";
-import subscriptionRouter from "./routes/subscriptionRouter.js";
+import blogRouter from "../routes/blogRouter.js";
+import healthRouter from "../routes/healthRouter.js";
+import postRouter from "../routes/postRouter.js";
+import favoriteRouter from "../routes/favoriteRouter.js";
+import profileRouter from "../routes/profileRouter.js";
+import likeRouter from "../routes/likeRouter.js";
+import ratingRouter from "../routes/ratingRouter.js";
+import userAuthRouter from "../routes/userAuthRouter.js";
+import subscriptionRouter from "../routes/subscriptionRouter.js";
 
 (async () => {
   await connectDatabase();
