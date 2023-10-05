@@ -1,4 +1,4 @@
-import connectDatabase from "./utils/db.js";
+import connectDatabase from "../utils/db.js";
 import express from "express";
 import bodyparser from "body-parser";
 const { json, urlencoded } = bodyparser;
